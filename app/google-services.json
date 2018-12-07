@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "857240425439",
+    "firebase_url": "https://indianrailwaysotp.firebaseio.com",
+    "project_id": "indianrailwaysotp",
+    "storage_bucket": "indianrailwaysotp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857240425439:android:17b159ba1c4bd7eb",
+        "android_client_info": {
+          "package_name": "com.example.android.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857240425439-98kretuh7iurvndja1rteuitn93fbrqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.chatapp",
+            "certificate_hash": "1a9b69bf30881bbf1d1de281f5f2693e12a17941"
+          }
+        },
+        {
+          "client_id": "857240425439-g9bvnbtjlhu1s99s9k01uiocl7oa8cf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p6YulCfbLoNKFVTx4EieNrrcO0Aqu0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857240425439-g9bvnbtjlhu1s99s9k01uiocl7oa8cf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857240425439:android:1380ff9806e4690d",
+        "android_client_info": {
+          "package_name": "com.example.android.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857240425439-r8qjpk5sddkveh5ibm3f0ilejuojf7ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.firebaseauth",
+            "certificate_hash": "1a9b69bf30881bbf1d1de281f5f2693e12a17941"
+          }
+        },
+        {
+          "client_id": "857240425439-g9bvnbtjlhu1s99s9k01uiocl7oa8cf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p6YulCfbLoNKFVTx4EieNrrcO0Aqu0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857240425439-g9bvnbtjlhu1s99s9k01uiocl7oa8cf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857240425439:android:b00bd5d11f2b4ab8",
+        "android_client_info": {
+          "package_name": "com.example.android.sssh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857240425439-v0cov3mc3snnbkjdit3carv6vri0ersf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.sssh",
+            "certificate_hash": "1a9b69bf30881bbf1d1de281f5f2693e12a17941"
+          }
+        },
+        {
+          "client_id": "857240425439-g9bvnbtjlhu1s99s9k01uiocl7oa8cf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p6YulCfbLoNKFVTx4EieNrrcO0Aqu0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857240425439-g9bvnbtjlhu1s99s9k01uiocl7oa8cf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857240425439:android:bec10a4d524a481e",
+        "android_client_info": {
+          "package_name": "com.example.rohandsouza.indianrailways"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857240425439-u53t4iv9tqmpi82ie3fdqpsos90q59ld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohandsouza.indianrailways",
+            "certificate_hash": "1a9b69bf30881bbf1d1de281f5f2693e12a17941"
+          }
+        },
+        {
+          "client_id": "857240425439-g9bvnbtjlhu1s99s9k01uiocl7oa8cf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8p6YulCfbLoNKFVTx4EieNrrcO0Aqu0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857240425439-g9bvnbtjlhu1s99s9k01uiocl7oa8cf1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

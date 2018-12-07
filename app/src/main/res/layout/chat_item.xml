@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msg_text_view"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:paddingTop="3dp">
+
+            <TextView
+                android:id="@+id/chat_text_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:text="Hello" />
+
+            <TextView
+                android:id="@+id/chat_time_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textSize="10sp"
+                tools:text="23.00" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/current_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/message_text_view_date"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="3dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:paddingTop="3dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:text="Today" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/msg_text_view"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingEnd="6dp"
+        android:paddingStart="6dp"
+        android:paddingTop="6dp"
+        android:id="@+id/linear_layout_image_one">
+
+        <ImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:scaleType="centerCrop"
+            android:background="#fafafa"
+            tools:src="@drawable/ic_launcher_foreground" />
+
+
+        <TextView
+            android:id="@+id/image_time_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:textSize="10sp"
+            tools:text="23.00" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

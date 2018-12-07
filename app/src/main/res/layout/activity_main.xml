@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp">
+
+
+    <!-- <android.support.v4.widget.NestedScrollView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingStart="16dp"
+         android:paddingEnd="16dp">
+
+
+         <android.support.v7.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+         </android.support.v7.widget.RecyclerView>
+     </android.support.v4.widget.NestedScrollView> -->
+
+    <ListView
+        android:id="@+id/list_of_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear_layout"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="4dp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbars="none"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="8dp">
+
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/edit_text_drawable"
+            android:drawableEnd="@drawable/attach_file"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/camera"
+            android:hint="Type a message"
+            android:inputType="textCapSentences"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:src="@drawable/send1"
+            app:backgroundTint="#2B3D4D"
+            app:fabSize="normal" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
